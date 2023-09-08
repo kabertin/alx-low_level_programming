@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (al_low == 'e' || al_low == 'q')
 		{
-			continue;
+			al_low++;
 		}
 		putchar(al_low);
 		al_low++;
