@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ * no parameter
  * Return: (0) Success
  *
  */
@@ -28,7 +28,8 @@ int main(void)
 			printf("Buzz ");
 			continue;
 		}
-		printf("%d ", i);
+		else
+			printf("%d ", i);
 	}
 	printf("\n");
 	return (0);
