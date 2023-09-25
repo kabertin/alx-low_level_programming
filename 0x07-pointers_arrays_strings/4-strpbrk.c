@@ -1,3 +1,13 @@
+#include "main.h"
+
+/**
+ * _strpbrk -  searches a string for any of a set of bytes.
+ * @s: array
+ * @accept: this is to check
+ *
+ * Return: pointer to s
+ */
+
 char *_strpbrk(char *s, char *accept)
 {
 	int i, j;
