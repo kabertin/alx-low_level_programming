@@ -1,0 +1,20 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - program that prints arguments passed to it
+ * @argc: number of argum
+ * @argv: array of arg
+ * Return: (0)
+ */
+
+int main(int argc, char *argv[] __attribute__((unused)))
+{
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+	return (0);
+}
