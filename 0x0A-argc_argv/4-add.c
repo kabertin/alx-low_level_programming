@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - program that prints arguments passed to it
+ * main - program that make the sum
  * @argc: number of argum
  * @argv: array of arg
  * Return: (0) or (1)
